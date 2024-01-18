@@ -18,4 +18,8 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-bot.run("MTE5NzU5NjA4NjI4NjY4ODM3Nw.GiCkvs.13_hNbs5sIzEYI7FzIwtHyHwkxj8PjXy_UexEo")
+@bot.command()
+async def kodland(ctx):
+    await ctx.send("kodland python dersinden merhaba")
+
+bot.run("tokenınızı buraya yazınız")
